@@ -5,6 +5,8 @@
 // GitHub: https://github.com/fatbobman
 //
 // Copyright © 2025 Fatbobman. All rights reserved.
+//
+// Modified 2026 by Block21 (https://github.com/emmanuelay/Objects2XLSX): General as built-in format 0; custom(_:) format codes.
 
 import Foundation
 

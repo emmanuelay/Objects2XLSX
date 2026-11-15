@@ -6,6 +6,8 @@
 //
 // Copyright © 2025 Fatbobman. All rights reserved.
 //
+// Modified 2026 by Block21 (https://github.com/emmanuelay/Objects2XLSX): a cell style's number format wins over the implied one; applyNumberFormat on formatted styles.
+//
 
 import Foundation
 
