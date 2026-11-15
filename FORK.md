@@ -8,6 +8,7 @@ A fork of [fatbobman/Objects2XLSX](https://github.com/fatbobman/Objects2XLSX) 1.
 | General is Excel's built-in format 0, rather than an undefined custom format 164. | fix: write General as Excel's built-in number format 0 |
 | `CellStyle(numberFormat:)` and `NumberFormat.custom(_:)`, as the documentation already describes, so a column can be a date without a time or `#,##0.00`. | feat: let a cell style choose its number format |
 | A missing number, date, percentage or boolean is a blank cell rather than an empty `<v></v>`. | fix: leave missing numbers, dates and booleans without a value |
+| A missing string or URL is a blank cell rather than an empty inline string, so `ISBLANK` is true. | fix: leave missing strings and URLs without a value |
 | `docProps/app.xml` names the document properties' application and company, not the library. | fix: write the document properties' application and company to app.xml |
 
-Releases are tagged `<upstream version>-mywallet.<n>`, e.g. `1.3.2-mywallet.1`. Modified files carry a notice, as the Apache License 2.0 requires; the license and NOTICE are unchanged.
+Releases are tagged `<upstream version>-mywallet.<n>`, e.g. `1.3.2-mywallet.2`. Modified files carry a notice, as the Apache License 2.0 requires; the license and NOTICE are unchanged.
